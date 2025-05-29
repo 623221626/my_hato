@@ -6,4 +6,4 @@
 *.DS_Store
 saved_models/
 split_data/
-*.lnk
+data_banana/
