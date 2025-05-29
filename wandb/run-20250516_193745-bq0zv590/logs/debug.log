@@ -1,0 +1,22 @@
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_setup.py:_flush():70] Configure stats pid to 137341
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_setup.py:_flush():70] Loading settings from /home/zmj/.config/wandb/settings
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_setup.py:_flush():70] Loading settings from /home/zmj/my_ws/hato/wandb/settings
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_init.py:setup_run_log_directory():724] Logging user logs to ./wandb/run-20250516_193745-bq0zv590/logs/debug.log
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to ./wandb/run-20250516_193745-bq0zv590/logs/debug-internal.log
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_init.py:init():852] calling init triggers
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'batch_size': 32, 'obs_horizon': 1, 'action_horizon': 8, 'pred_horizon': 16, 'epochs': 300, 'traj_type': 'plain', 'prefix': None, 'save_path': None, 'load_path': None, 'eval': False, 'representation_type': 'img-depth-eef-hand_pos-touch-pos', 'base_path': '/shared', 'data_name': 'test_data', 'data_path': './split_data/data_banana', 'data_prefix': None, 'model_save_path': './saved_models', 'clip_far': False, 'color_jitter': False, 'predict_eef_delta': False, 'predict_pos_delta': False, 'use_ddim': False, 'policy_dropout_rate': 0.0, 'dropout_rate': 0.0, 'img_dropout_rate': 0.0, 'weight_decay': 1e-05, 'image_output_size': 32, 'state_noise': 0.0, 'img_gaussian_noise': 0.0, 'img_masking_prob': 0.0, 'img_patch_size': 16, 'num_workers': 16, 'eval_path': None, 'identity_encoder': False, 'gpu': 0, 'camera_indices': '012', 'save_freq': 10, 'eval_freq': 10, 'add_model_save_path_suffix': True, 'use_wandb': True, 'without_sampling': False, 'binarize_touch': False, 'num_diffusion_iters': 100, 'wandb_exp_name': None, 'load_img': False, 'train_suffix': '', 'use_train_test_split': True, 'use_memmap_cache': False, 'memmap_loader_path': None, 'compile_train': False, 'wandb_entity_name': 'a623221626-sun-yat-sen-university', 'wandb_project_name': 'hato_test', 'logging.anonymous': None, 'logging.entity': 'a623221626-sun-yat-sen-university', 'logging.exp_name': '0516_193742_10rk', 'logging.experiment_id': None, 'logging.mode': 'online', 'logging.notes': None, 'logging.output_dir': '.', 'logging.project': 'hato_test', 'logging.random_delay': 0.5, 'logging.time': '2025-05-16_19:37:42', '_wandb': {}}
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_init.py:init():893] starting backend
+2025-05-16 19:37:45,006 INFO    MainThread:137341 [wandb_init.py:init():897] sending inform_init request
+2025-05-16 19:37:45,022 INFO    MainThread:137341 [wandb_init.py:init():907] backend started and connected
+2025-05-16 19:37:45,025 INFO    MainThread:137341 [wandb_init.py:init():1005] updated telemetry
+2025-05-16 19:37:45,040 INFO    MainThread:137341 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-16 19:37:46,325 INFO    MainThread:137341 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-16 19:37:46,469 INFO    MainThread:137341 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-16 19:37:46,469 INFO    MainThread:137341 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-16 19:37:46,469 INFO    MainThread:137341 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-16 19:37:46,469 INFO    MainThread:137341 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-16 19:37:46,471 INFO    MainThread:137341 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-17 20:00:48,088 INFO    MsgRouterThr:137341 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

@@ -1,0 +1,28 @@
+{
+  "os": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-05-16T11:37:45.022731Z",
+  "args": [
+    "--data_path",
+    "./split_data/data_banana",
+    "--model_save_path",
+    "./saved_models",
+    "--batch_size=32",
+    "--epochs=300",
+    "--representation_type=img-depth-eef-hand_pos-touch-pos",
+    "--use_wandb=True",
+    "--wandb_project_name=hato_test",
+    "--wandb_entity_name=a623221626-sun-yat-sen-university"
+  ],
+  "program": "/home/zmj/my_ws/hato/./learning/dp/pipeline.py",
+  "codePath": "learning/dp/pipeline.py",
+  "git": {
+    "remote": "https://github.com/ToruOwO/hato.git",
+    "commit": "3b6f4496e11a386df8f362f398b36e832944b2b8"
+  },
+  "email": "a623221626@gmail.com",
+  "root": ".",
+  "host": "zmj-pc",
+  "executable": "/home/zmj/miniconda3/envs/hato/bin/python",
+  "codePathLocal": "learning/dp/pipeline.py"
+}

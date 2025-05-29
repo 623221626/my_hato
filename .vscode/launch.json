@@ -1,0 +1,41 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 调试 pipeline.py",
+            "type": "python",
+            //"type": "debugpy",
+            "request": "launch",
+            "program": "/home/zmj/my_ws/hato/learning/dp/pipeline.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--data_path", "/home/zmj/my_ws/hato/split_data/data_banana",
+                "--train_suffix","_10",
+                "--model_save_path", "/home/zmj/my_ws/hato/saved_models",
+                "--representation_type", "img-depth-eef-hand_pos-touch-pos",
+                "--batch_size", "16",
+                "--epochs", "50"
+            ]
+        }
+    ]
+}
+
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Python: 调试 pipeline.py",
+//             "type": "python",
+//             //"type": "debugpy",
+//             "request": "launch",
+//             "program": "/home/zmj/my_ws/hato/workflow/gen_deploy_scripts.py",
+//             "console": "integratedTerminal",
+//             "justMyCode": true,
+//             "args": [
+//                 "-c", "saved_models/0516_193742_10rk-camera=012-identity=False-repr=IDEHTP-oh=1-ah=8-ph=16-prefix=None-do=0.0-imgos=32-wd=1e-05-use_ddim=False-binarize_touch=False",
+//             ]
+//         }
+//     ]
+// }

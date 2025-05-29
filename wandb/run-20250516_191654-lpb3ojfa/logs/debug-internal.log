@@ -1,0 +1,6 @@
+{"time":"2025-05-16T19:16:54.213525328+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"wandb/run-20250516_191654-lpb3ojfa/logs/debug-core.log"}
+{"time":"2025-05-16T19:16:55.234051005+08:00","level":"INFO","msg":"created new stream","id":"lpb3ojfa"}
+{"time":"2025-05-16T19:16:55.23407329+08:00","level":"INFO","msg":"stream: started","id":"lpb3ojfa"}
+{"time":"2025-05-16T19:16:55.234126894+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lpb3ojfa"}
+{"time":"2025-05-16T19:16:55.234133613+08:00","level":"INFO","msg":"handler: started","stream_id":"lpb3ojfa"}
+{"time":"2025-05-16T19:16:55.234142339+08:00","level":"INFO","msg":"sender: started","stream_id":"lpb3ojfa"}

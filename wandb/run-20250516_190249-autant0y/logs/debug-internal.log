@@ -1,0 +1,6 @@
+{"time":"2025-05-16T19:02:49.466216051+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"wandb/run-20250516_190249-autant0y/logs/debug-core.log"}
+{"time":"2025-05-16T19:02:50.318316005+08:00","level":"INFO","msg":"created new stream","id":"autant0y"}
+{"time":"2025-05-16T19:02:50.31833595+08:00","level":"INFO","msg":"stream: started","id":"autant0y"}
+{"time":"2025-05-16T19:02:50.318349883+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"autant0y"}
+{"time":"2025-05-16T19:02:50.318385663+08:00","level":"INFO","msg":"handler: started","stream_id":"autant0y"}
+{"time":"2025-05-16T19:02:50.318387803+08:00","level":"INFO","msg":"sender: started","stream_id":"autant0y"}

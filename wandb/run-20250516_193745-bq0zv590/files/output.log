@@ -1,0 +1,144 @@
+number of parameters: 7.121308e+07
+Saving to model path ./saved_models/0516_193742_10rk-camera=012-identity=False-repr=IDEHTP-oh=1-ah=8-ph=16-prefix=None-do=0.0-imgos=32-wd=1e-05-use_ddim=False-binarize_touch=False
+using data path ./split_data/data_banana
+using memmap loader path:
+./split_data/data_banana_train
+./split_data/data_banana_test
+All Directories
+['0307_205225', '0307_205250', '0307_205359', '0307_205422', '0307_205445', '0307_205507', '0307_205531', '0307_205552', '0307_205617', '0307_205641', '0307_211120', '0307_211140', '0307_211201', '0307_211222', '0307_211242', '0307_211306', '0307_211331', '0307_211358', '0307_211419', '0307_211444', '0307_211505', '0307_211524', '0307_211546', '0307_211605', '0307_211625', '0307_211711', '0307_211731', '0307_211752', '0307_211812', '0307_211831', '0307_211849', '0307_211906', '0307_211928', '0307_211947', '0307_212006', '0307_212025', '0307_212044', '0307_212101', '0307_212119', '0307_212137', '0307_212155', '0307_212215', '0307_212235', '0307_212254', '0307_212314', '0307_212330', '0307_212348', '0307_212405', '0307_212424', '0307_212447', '0307_212506', '0307_212525', '0307_212543', '0307_212601', '0307_212622', '0307_212640', '0307_212657', '0307_212717', '0307_212735', '0307_212752', '0307_212808', '0307_212824', '0307_212841', '0307_212859', '0307_212914', '0307_212932', '0307_212958', '0307_213019', '0307_213038', '0307_213055', '0307_213126', '0307_213142', '0307_213202', '0307_220930', '0307_220953', '0307_221012', '0307_221033', '0307_221050', '0307_221107', '0307_221124', '0307_221302', '0307_221319', '0307_221336', '0307_221355', '0307_221418', '0307_221438', '0307_221454', '0307_221513', '0307_221531', '0307_221548', '0307_221607', '0307_221626', '0307_221802', '0307_221820', '0307_221840', '0307_221857', '0307_221915', '0307_224818', '0307_224838', '0307_224855', '0307_224946']
+==========
+['./split_data/data_banana_train/0307_205225', './split_data/data_banana_train/0307_205250', './split_data/data_banana_train/0307_205359', './split_data/data_banana_train/0307_205422', './split_data/data_banana_train/0307_205445', './split_data/data_banana_train/0307_205507', './split_data/data_banana_train/0307_205531', './split_data/data_banana_train/0307_205552', './split_data/data_banana_train/0307_205617', './split_data/data_banana_train/0307_205641', './split_data/data_banana_train/0307_211120', './split_data/data_banana_train/0307_211140', './split_data/data_banana_train/0307_211201', './split_data/data_banana_train/0307_211222', './split_data/data_banana_train/0307_211242', './split_data/data_banana_train/0307_211306', './split_data/data_banana_train/0307_211331', './split_data/data_banana_train/0307_211358', './split_data/data_banana_train/0307_211419', './split_data/data_banana_train/0307_211444', './split_data/data_banana_train/0307_211505', './split_data/data_banana_train/0307_211524', './split_data/data_banana_train/0307_211546', './split_data/data_banana_train/0307_211605', './split_data/data_banana_train/0307_211625', './split_data/data_banana_train/0307_211711', './split_data/data_banana_train/0307_211731', './split_data/data_banana_train/0307_211752', './split_data/data_banana_train/0307_211812', './split_data/data_banana_train/0307_211831', './split_data/data_banana_train/0307_211849', './split_data/data_banana_train/0307_211906', './split_data/data_banana_train/0307_211928', './split_data/data_banana_train/0307_211947', './split_data/data_banana_train/0307_212006', './split_data/data_banana_train/0307_212025', './split_data/data_banana_train/0307_212044', './split_data/data_banana_train/0307_212101', './split_data/data_banana_train/0307_212119', './split_data/data_banana_train/0307_212137', './split_data/data_banana_train/0307_212155', './split_data/data_banana_train/0307_212215', './split_data/data_banana_train/0307_212235', './split_data/data_banana_train/0307_212254', './split_data/data_banana_train/0307_212314', './split_data/data_banana_train/0307_212330', './split_data/data_banana_train/0307_212348', './split_data/data_banana_train/0307_212405', './split_data/data_banana_train/0307_212424', './split_data/data_banana_train/0307_212447', './split_data/data_banana_train/0307_212506', './split_data/data_banana_train/0307_212525', './split_data/data_banana_train/0307_212543', './split_data/data_banana_train/0307_212601', './split_data/data_banana_train/0307_212622', './split_data/data_banana_train/0307_212640', './split_data/data_banana_train/0307_212657', './split_data/data_banana_train/0307_212717', './split_data/data_banana_train/0307_212735', './split_data/data_banana_train/0307_212752', './split_data/data_banana_train/0307_212808', './split_data/data_banana_train/0307_212824', './split_data/data_banana_train/0307_212841', './split_data/data_banana_train/0307_212859', './split_data/data_banana_train/0307_212914', './split_data/data_banana_train/0307_212932', './split_data/data_banana_train/0307_212958', './split_data/data_banana_train/0307_213019', './split_data/data_banana_train/0307_213038', './split_data/data_banana_train/0307_213055', './split_data/data_banana_train/0307_213126', './split_data/data_banana_train/0307_213142', './split_data/data_banana_train/0307_213202', './split_data/data_banana_train/0307_220930', './split_data/data_banana_train/0307_220953', './split_data/data_banana_train/0307_221012', './split_data/data_banana_train/0307_221033', './split_data/data_banana_train/0307_221050', './split_data/data_banana_train/0307_221107', './split_data/data_banana_train/0307_221124', './split_data/data_banana_train/0307_221302', './split_data/data_banana_train/0307_221319', './split_data/data_banana_train/0307_221336', './split_data/data_banana_train/0307_221355', './split_data/data_banana_train/0307_221418', './split_data/data_banana_train/0307_221438', './split_data/data_banana_train/0307_221454', './split_data/data_banana_train/0307_221513', './split_data/data_banana_train/0307_221531', '
+All Directories
+['0307_225017']
+==========
+eval traj: ./split_data/data_banana_test/0307_225017
+Loading training data   
+Failed to load 2024-03-07T21_13_18.242219.pklana_train/0307_211306
+Train data loadedta from ./split_data/data_banana_train/0307_224946
+img (9555,)
+eef (9555, 12)
+hand_pos (9555, 12)
+touch (9555, 60)
+pos (9555, 24)
+action (9555, 24)
+Representation type:  ['img', 'eef', 'hand_pos', 'touch', 'pos']
+/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py:617: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 8, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+stats saved
+Epoch:  50%|██████▌      | 150/300 [17:44:59<17:53:36, 429.44s/it, loss=0.00682]
+                                                                                
+Evaluating one trajectory...
+Action_MSE: 0.8804281004042254, Normalized_MSE: 0.9332991511274851
+Evaluating one trajectory...
+Action_MSE: 0.08413316949677087, Normalized_MSE: 0.2696763505424245
+Evaluating one trajectory...
+Action_MSE: 0.016696241671546878, Normalized_MSE: 0.04190725849069753
+Evaluating one trajectory...
+Action_MSE: 0.05649219372756355, Normalized_MSE: 0.16241993113284234
+Evaluating one trajectory...
+Action_MSE: 0.011784430742754613, Normalized_MSE: 0.028997419390450203
+Evaluating one trajectory...
+Action_MSE: 0.012989579975217356, Normalized_MSE: 0.0327558448249215
+Evaluating one trajectory...
+Action_MSE: 0.011837507622440397, Normalized_MSE: 0.029928042981371698
+Evaluating one trajectory...
+Action_MSE: 0.01740497142891371, Normalized_MSE: 0.04674248026460343
+Evaluating one trajectory...
+Action_MSE: 0.0161226813066935, Normalized_MSE: 0.04503351072348247
+Evaluating one trajectory...
+Action_MSE: 0.016795780610104952, Normalized_MSE: 0.04286628947309774
+Evaluating one trajectory...
+Action_MSE: 0.018572377808012217, Normalized_MSE: 0.0507753954287657
+Evaluating one trajectory...
+Action_MSE: 0.013642868593398331, Normalized_MSE: 0.031222359434667304
+Evaluating one trajectory...
+Action_MSE: 0.015114277552545819, Normalized_MSE: 0.034467267291032444
+Evaluating one trajectory...
+Action_MSE: 0.0237663029001275, Normalized_MSE: 0.07108988135270534
+Evaluating one trajectory...
+Action_MSE: 0.012484377557081408, Normalized_MSE: 0.030807568028188712
+Evaluating one trajectory...
+Action_MSE: 0.01592201183485398, Normalized_MSE: 0.0440941718413417
+Evaluating one trajectory...
+Action_MSE: 0.013967278692049811, Normalized_MSE: 0.03503651662700058
+Evaluating one trajectory...
+Action_MSE: 0.020679673224779874, Normalized_MSE: 0.058787853034079005
+Evaluating one trajectory...
+Action_MSE: 0.010103013039416119, Normalized_MSE: 0.016919736980637836
+Evaluating one trajectory...
+Action_MSE: 0.014148233392325347, Normalized_MSE: 0.03370182894276918
+Evaluating one trajectory...
+Action_MSE: 0.014270061630609726, Normalized_MSE: 0.03284775468768438
+  File "/home/zmj/my_ws/hato/./learning/dp/pipeline.py", line 961, in <module>
+    agent.train(
+  File "/home/zmj/my_ws/hato/./learning/dp/pipeline.py", line 598, in train
+    self.policy.train(
+  File "/home/zmj/my_ws/hato/learning/dp/learner.py", line 160, in train
+    for nbatch in tepoch:
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1448, in _next_data
+    idx, data = self._get_data()
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1402, in _get_data
+    success, data = self._try_get_data()
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1243, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1598, in _clean_up_worker
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1598, in _clean_up_worker
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1598, in _clean_up_worker
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1598, in _clean_up_worker
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/zmj/miniconda3/envs/hato/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

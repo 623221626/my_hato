@@ -1,0 +1,154 @@
+_wandb:
+    value:
+        cli_version: 0.19.11
+        m: []
+        python_version: 3.9.21
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 55
+                - 83
+            "2":
+                - 1
+                - 41
+                - 49
+                - 55
+                - 83
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+                - 61
+            "4": 3.9.21
+            "5": 0.19.11
+            "8":
+                - 8
+            "10":
+                - 20
+            "12": 0.19.11
+            "13": linux-x86_64
+action_horizon:
+    value: 8
+add_model_save_path_suffix:
+    value: true
+base_path:
+    value: /shared
+batch_size:
+    value: 32
+binarize_touch:
+    value: false
+camera_indices:
+    value: "012"
+clip_far:
+    value: false
+color_jitter:
+    value: false
+compile_train:
+    value: false
+data_name:
+    value: test_data
+data_path:
+    value: ./split_data/data_banana
+data_prefix:
+    value: null
+dropout_rate:
+    value: 0
+epochs:
+    value: 300
+eval:
+    value: false
+eval_freq:
+    value: 10
+eval_path:
+    value: null
+gpu:
+    value: 0
+identity_encoder:
+    value: false
+image_output_size:
+    value: 32
+img_dropout_rate:
+    value: 0
+img_gaussian_noise:
+    value: 0
+img_masking_prob:
+    value: 0
+img_patch_size:
+    value: 16
+load_img:
+    value: false
+load_path:
+    value: null
+logging.anonymous:
+    value: null
+logging.entity:
+    value: a623221626-sun-yat-sen-university
+logging.exp_name:
+    value: 0516_193742_10rk
+logging.experiment_id:
+    value: null
+logging.mode:
+    value: online
+logging.notes:
+    value: null
+logging.output_dir:
+    value: .
+logging.project:
+    value: hato_test
+logging.random_delay:
+    value: 0.5
+logging.time:
+    value: 2025-05-16_19:37:42
+memmap_loader_path:
+    value: null
+model_save_path:
+    value: ./saved_models
+num_diffusion_iters:
+    value: 100
+num_workers:
+    value: 16
+obs_horizon:
+    value: 1
+policy_dropout_rate:
+    value: 0
+pred_horizon:
+    value: 16
+predict_eef_delta:
+    value: false
+predict_pos_delta:
+    value: false
+prefix:
+    value: null
+representation_type:
+    value: img-depth-eef-hand_pos-touch-pos
+save_freq:
+    value: 10
+save_path:
+    value: null
+state_noise:
+    value: 0
+train_suffix:
+    value: ""
+traj_type:
+    value: plain
+use_ddim:
+    value: false
+use_memmap_cache:
+    value: false
+use_train_test_split:
+    value: true
+use_wandb:
+    value: true
+wandb_entity_name:
+    value: a623221626-sun-yat-sen-university
+wandb_exp_name:
+    value: null
+wandb_project_name:
+    value: hato_test
+weight_decay:
+    value: 1e-05
+without_sampling:
+    value: false

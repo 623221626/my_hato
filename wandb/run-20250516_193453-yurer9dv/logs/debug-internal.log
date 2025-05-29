@@ -1,0 +1,6 @@
+{"time":"2025-05-16T19:34:53.517692715+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"wandb/run-20250516_193453-yurer9dv/logs/debug-core.log"}
+{"time":"2025-05-16T19:34:54.411952576+08:00","level":"INFO","msg":"created new stream","id":"yurer9dv"}
+{"time":"2025-05-16T19:34:54.411996267+08:00","level":"INFO","msg":"stream: started","id":"yurer9dv"}
+{"time":"2025-05-16T19:34:54.412012073+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"yurer9dv"}
+{"time":"2025-05-16T19:34:54.412054799+08:00","level":"INFO","msg":"sender: started","stream_id":"yurer9dv"}
+{"time":"2025-05-16T19:34:54.412136012+08:00","level":"INFO","msg":"handler: started","stream_id":"yurer9dv"}
